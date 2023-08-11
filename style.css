@@ -42,5 +42,5 @@ body {
     font-weight: 800;
     font-size: clamp(1vw, 2vw, 4vw);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: rgb(30, 30, 30);
 }
