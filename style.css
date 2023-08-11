@@ -1,0 +1,46 @@
+@font-face {
+    src: url(assets/raleway.ttf);
+    font-family: raleway;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: white;
+    font-family: raleway;
+}
+
+body {
+    background-color: rgb(30, 30, 30);
+    width: 100vw;
+    height: 100vh;
+}
+
+#flex-background {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#background {
+    display: flex;
+    height: 100vh;
+    width: 50%;
+    background-image: url("assets/background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 32px 0px 32px -32px rgb(30, 30, 30),
+        inset -32px 0px 32px -32px rgb(30, 30, 30);
+    justify-content: center;
+    align-items: center;
+}
+
+#background div {
+    font-weight: 800;
+    font-size: clamp(1vw, 2vw, 4vw);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
