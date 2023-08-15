@@ -3,7 +3,7 @@ let diamondNav = document.querySelector("#diamond-nav");
 let filledDiamond = document.querySelector("#filledDiamond")
 let leftArrow = document.querySelector("#left-arrow");
 let rightArrow = document.querySelector("#right-arrow");
-let navH6 = document.querySelectorAll("header h6");
+let navH6 = document.querySelectorAll("header div h4");
 
 // Condition
 let openNav = false;
